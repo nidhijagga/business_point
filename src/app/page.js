@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Index from '@/components/Index/Index'
 import Goals from '@/components/Goals/Goals'
 import About from '@/components/About/About'
+import Quote from '@/components/Quote/Quote'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <Index/>
         <Goals/>
         <About/>
+        <Quote/>
     </main>
   )
 }

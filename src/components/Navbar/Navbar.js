@@ -6,7 +6,7 @@ const NavBar = () => {
     <div className="flex justify-between shadow-sm bg-white self-stretch w-full gap-5 px-14 items-start max-md:max-w-full max-md:flex-wrap max-md:px-5">
       <div className="flex w-[216px] shrink-0 h-[45px] flex-col">
         <h1 className="text-lg font-bold">
-          Business{" "}
+          Business
           <span className="text-green-500">Point</span>
         </h1>
         <p className="text-neutral-600 text-xs leading-4">
