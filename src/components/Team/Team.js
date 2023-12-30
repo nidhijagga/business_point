@@ -5,7 +5,7 @@ import team1 from "../../../public/team1.png";
 const Team = () => {
   return (
     <>
-      <div className="justify-end text-neutral-600 text-center text-5xl self-center whitespace-nowrap mt-16 max-md:text-4xl max-md:mt-10">
+      <div id="team" className="justify-end text-neutral-600 text-center text-5xl self-center whitespace-nowrap mt-16 max-md:text-4xl max-md:mt-10">
         OUR TEAM
       </div>
       <div className="self-center w-full max-w-[1340px] mt-7 px-5 max-md:max-w-full">

@@ -4,7 +4,7 @@ import service1 from "../../../public/services1.png";
 
 const ServiceItem = () => {
   return (
-    <div className="flex flex-col items-stretch w-full max-md:w-full max-md:ml-0">
+    <div id="services" className="flex flex-col items-stretch w-full max-md:w-full max-md:ml-0">
       <div className="flex grow flex-col justify-center items-stretch max-md:max-w-full max-md:mt-5">
         <div className="shadow-sm bg-white flex flex-col items-stretch pb-6 max-md:max-w-full">
           <Image loading="lazy" src={service1} className="w-full" />

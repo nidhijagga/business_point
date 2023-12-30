@@ -5,7 +5,7 @@ import medal from "../../../public/medal.png";
 const About = () => {
   return (
     <>
-      <div className="text-neutral-600 text-center text-5xl max-w-[492px] self-center mt-20 max-md:max-w-full max-md:text-4xl max-md:mt-10">
+      <div id="about" className="text-neutral-600 text-center text-5xl max-w-[492px] self-center mt-20 max-md:max-w-full max-md:text-4xl max-md:mt-10">
         ABOUT OUR COMPANY
       </div>
       <div className="self-center w-full max-w-[1341px] mt-8 max-md:max-w-full">
