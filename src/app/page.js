@@ -4,6 +4,7 @@ import Goals from '@/components/Goals/Goals'
 import About from '@/components/About/About'
 import Quote from '@/components/Quote/Quote'
 import Services from '@/components/Services/Services'
+import Team from '@/components/Team/Team'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <About/>
         <Quote/>
         <Services/>
+        <Team/>
     </main>
   )
 }
