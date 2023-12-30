@@ -1,8 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import connect from "@/lib/db";
 import Team from "@/models/TeamModel";
-
+// import authenticateToken from "@/middleware/auth";
 connect();
+// authenticateToken();
 
 export async function GET(request) {
   try {
